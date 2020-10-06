@@ -17,7 +17,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 
     @Autowired
-    MyUserDetailsService userDetailsService; //?? my or not?
+    MyUserDetailsService userDetailsService; 
 
 
     @Autowired
