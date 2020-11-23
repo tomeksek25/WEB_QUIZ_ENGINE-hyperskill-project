@@ -1,7 +1,7 @@
 # WEB_QUIZ_ENGINE-hyperskill-project
 
 Short description: 
-REST API using HTTP Basic Auth, where you can create Quizzes and solve them. Spring JPA and H2 had been used to store data. There is User repository (you can register), Quiz repository and Completion repository. GET posiibilities: Get all quizzes, Get one quiz, Get your quizzes completions with data/time (all Get are with pagination). POST: create quizz (with conditions), solve quiz, register. DELETE - deletes quiz. 
+Spring boot REST API using HTTP Basic Auth, where you can create Quizzes and solve them. Spring JPA and H2 had been used to store data. There is User repository (you can register), Quiz repository and Completion repository. GET posiibilities: Get all quizzes, Get one quiz, Get your quizzes completions with data/time (all Get are with pagination). POST: create quizz (with conditions), solve quiz, register. DELETE - deletes quiz. 
 To perform any operation (except register) the user has to be registered and authorised via HTTP Basic Auth by sending their email and password for each request. Password is encoded with BCrypt.
 
 
